@@ -24,4 +24,12 @@ public class Character {
         this.level=level;
         this.weapon=weapon;
     }
+    public void showCharacter(){
+        System.out.println("Nickname: " + nickname);
+        System.out.println("race: " + race);
+        System.out.println("characterClass: " + characterClass);
+        System.out.println("health: " + health);
+        System.out.println("level: " + level);
+        System.out.println("faith: " + faith);
+        System.out.println("weapon: " + weapon);    }
 }
