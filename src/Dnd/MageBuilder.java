@@ -47,8 +47,8 @@ public class MageBuilder implements CharacterBuilder{
         if (Nickname == null || race == null || characterClass == null) {
             throw new IllegalStateException("Some character information is missing");
         }
-        if (level < 1) {
-            throw new IllegalStateException("Level must be at least 1");
+        if (level < 5) {
+            throw new IllegalStateException("Level must be at least 5");
         }
         if (health <= 0){
             throw new IllegalStateException("Health should be abive zero");
